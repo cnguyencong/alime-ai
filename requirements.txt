@@ -1,0 +1,10 @@
+openai-whisper>=20231117
+torch>=2.0.0
+tqdm>=4.65.0
+ffmpeg-python>=0.2.0
+transformers>=4.36.0
+sentencepiece>=0.1.99  # Required for some translation models
+protobuf>=4.25.1  # Required for tensorflow
+tensorflow>=2.15.0  # Optional: Only needed if using tensorflow-based models
+numpy>=1.24.3
+pandas>=2.0.3
